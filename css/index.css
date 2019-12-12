@@ -1,0 +1,32 @@
+      li {
+        margin-bottom: 10px;
+      }
+      li button {
+        font-size: 8px;
+        margin-left: 20px;
+        color: #666;
+      }
+
+.button {
+    font-family: Calibri, sans-serif;
+    font-size:13px;
+    font-weight: bold;
+    width: 80px;
+    height: 25px;
+    color: black;
+    
+}
+.selected {
+    color: white;
+    background:#464159;
+}
+
+#list-item{
+    font-size: 15px; 
+    font-weight: bold;
+}
+
+button#add-item:active{
+    color: white;
+    background:#6c7b95;
+}
