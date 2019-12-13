@@ -14,6 +14,7 @@ button.onclick = function () {
 
     list.appendChild(listItem);
     listBtn.onclick = function () {
+        $("#item").attr("placeholder", "Item deleted").fadeOut(500).fadeIn(500);
         list.removeChild(listItem);
     }
     input.focus();
@@ -22,10 +23,10 @@ button.onclick = function () {
 $("button#add-item").click(function () {
     $(this).toggleClass("selected");
     $("#enter-item").toggleClass("selected");
-    $("#item").attr("placeholder", "Item Added").fadeOut(1000).fadeIn(1000);
+    $("#item").attr("placeholder", "Item Added").fadeOut(500).fadeIn(500);
 });
 
-$("#add-item").click(() => $('h1').toggle(1000).toggle(1000));
+$("#add-item").click(() => $('h1').toggle(500).toggle(500));
 
 
 document.getElementById("my-list").addEventListener("mouseover", mouseOver);
